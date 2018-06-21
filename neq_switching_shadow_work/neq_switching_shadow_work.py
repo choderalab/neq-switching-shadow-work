@@ -65,7 +65,7 @@ class NonequilibriumShadowExperimentSetup(object):
         #this will be used to template the dictionaries that will become yaml input files
         #we're setting global settings that will not change over the combinatorial scan
         self._reference_dictionary = {
-            'forcefield_files' : forcefield_files
+            'forcefield_files' : forcefield_files,
             'trajectory_prefix' : project_name,
             'forward_functions': forward_functions,
             'ligand_file' : os.path.abspath(ligand_file),
