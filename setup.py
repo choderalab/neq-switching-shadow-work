@@ -18,7 +18,7 @@ setup(
     license='MIT',
 
     # Which Python importable modules should be included when your package is installed
-    packages=['neq_switching_shadow_work', "neq_switching_shadow_work.tests", "neq_switching_shadow_work.setup_neq_switching.py"],
+    packages=['neq_switching_shadow_work', "neq_switching_shadow_work.tests", "neq_switching_shadow_work.setup_neq_switching"],
 
     # Optional include package data to ship with your package
     # Comment out this line to prevent the files from being packaged with your software
