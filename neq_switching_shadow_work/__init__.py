@@ -8,7 +8,7 @@ An exploration of the effect of shadow work on nonequilibrium switching relative
 from __future__ import absolute_import
 
 # Add imports here
-from .neq_switch_shadow_work import *
+from .neq_switching_shadow_work import *
 
 # Handle versioneer
 from ._version import get_versions
