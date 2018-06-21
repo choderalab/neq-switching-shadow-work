@@ -108,7 +108,7 @@ class NonequilibriumShadowExperimentSetup(object):
                     for replicate in range(self._n_replicates):
 
                         #build the name of the directory, which we'll also use as a key
-                        directory_name = self._directory_format.format(project_name=self._project_name, timestep=timestep, switching_length=switching_length, phase=self._phase, replicate=replicate)
+                        directory_name = self._directory_format.format(project_name=self._project_name, timestep=timestep, switching_length=switching_length, integrator=equilibrium_integrator,phase=self._phase, replicate=replicate)
                         yaml_options = copy.deepcopy(self._reference_dictionary)
 
                         yaml_options['timestep'] = timestep
