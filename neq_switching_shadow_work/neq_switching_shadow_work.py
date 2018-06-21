@@ -74,7 +74,7 @@ class NonequilibriumShadowExperimentSetup(object):
             'old_ligand_index' : old_ligand_index,
             'phases' : [phase],
             'n_cycles' : n_cycles,
-            'n_equilibration_steps' : n_equilibration_steps,
+            'n_equilibration_iterations' : n_equilibration_steps,
             'trajectory_directory' : 'shadow_work_test',
             'temperature' : tmeperature,
             'n_equilibrium_steps_per_iteration' : n_equilibrium_steps_per_iteration,
