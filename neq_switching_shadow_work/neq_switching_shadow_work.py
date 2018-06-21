@@ -142,9 +142,7 @@ class NonequilibriumShadowExperimentSetup(object):
             template_script = templatefile.read()
         
         yaml_filename = self._project_name + ".yaml"
-        template_script.format(calculation_name=directory_name, memory=8, wallclock_time=self._time_on_cluster, yaml_filename=yaml_filename, estimated_time=self._time_on_cluster, path_to_setup_script=self._path_to_setup_script)
-
-        return template_script
+        return template_script.format(calculation_name=directory_name, memory=8, wallclock_time=self._time_on_cluster, yaml_filename=yaml_filename, estimated_time=self._time_on_cluster, path_to_setup_script=self._path_to_setup_script)
 
     def write_setup_files(self):
         """
