@@ -1,5 +1,5 @@
 """
-neq-switching-shadow-work
+neq_switching_shadow_work
 An exploration of the effect of shadow work on nonequilibrium switching relative free energy calculations
 """
 from setuptools import setup
@@ -9,7 +9,7 @@ DOCLINES = __doc__.split("\n")
 
 setup(
     # Self-descriptive entries which should always be present
-    name='neq-switching-shadow-work',
+    name='neq_switching_shadow_work',
     author='Patrick Grinaway',
     description=DOCLINES[0],
     long_description="\n".join(DOCLINES[2:]),
@@ -18,12 +18,12 @@ setup(
     license='MIT',
 
     # Which Python importable modules should be included when your package is installed
-    packages=['neq-switching-shadow-work', "neq-switching-shadow-work.tests"],
+    packages=['neq_switching_shadow_work', "neq_switching_shadow_work.tests"],
 
     # Optional include package data to ship with your package
     # Comment out this line to prevent the files from being packaged with your software
     # Extend/modify the list to include/exclude other items as need be
-    package_data={'neq-switching-shadow-work': ["data/*.dat"]
+    package_data={'neq_switching_shadow_work': ["data/*.dat", "data/*.sh"]
                   },
 
     # Additional entries you may want simply uncomment the lines you want and fill in the data
