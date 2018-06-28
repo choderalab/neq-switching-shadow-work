@@ -1,0 +1,1 @@
+bsub -J "alanine_wshad[1-45]" < alanine_dipeptide_example.lsf
